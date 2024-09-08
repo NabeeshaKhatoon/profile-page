@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header {
+    background: black;
+    color: #fff;
+    height: 58px;
+    text-align: center;
+}
+.profile-bio {
+    display: flex;
+    justify-content: center;
+    margin: 20px ;
+}
+.profile {
+    display: flex;
+    background-color:whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 850px;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-pic {
+    border-radius: 15%;
+    width: 190px;
+    height: 200px;
+    object-fit: cover;
+}
+.bio {
+    text-align: center;
+}
+.about, .h2{
+    font-size: 30px;
+    margin-top: 9px;
+}
+.h2 {
+    color: rgb(93, 125, 160);
+} 
+.para {
+    line-height: 30px;
+    color: #111111;
+}
+.hobbies-contact {
+    max-width: 900px;
+    margin: auto;
+}
+.Hobbies,.contact-info {
+    background-color:whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 15px ;
+}
+.hobbie {
+    font-size: 35px;
+    text-align: center;
+}
+.Hobbies ul {
+    list-style: none;
+}
+.Hobbies li { 
+    padding: 15px;
+    color: #0f0e0e;
+}
+.contact-info h2 {
+    font-size: 30px;
+    text-align: center;
+}
+.contact-info address {
+    font-style: normal;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+
